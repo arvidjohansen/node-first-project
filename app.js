@@ -1,6 +1,10 @@
+console.log(); //global
 
-function sayHello(name){
-    console.log('Hello '+ name);
-}
+setTimeout()
+clearTimeout();
 
-sayHello('Arvid');
+setInterval();
+clearInterval();
+
+var message = '';
+console.log(global.message);
