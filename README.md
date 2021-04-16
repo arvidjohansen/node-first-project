@@ -7,4 +7,6 @@ ex03 making a module
 jshint
 module wrapper function
 ex04 path
-
+ex05 os ecmastrings
+ex06 fs
+50:21 restart
