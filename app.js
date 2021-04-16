@@ -1,16 +1,10 @@
-console.log(); //global
+/*
+var sayHello = function(){
 
-//https://nodejs.org/en/docs/guides/timers-in-node/
-
-function myFunc(arg){
-    console.log(`arg was => ${arg}`);
 }
-setTimeout(myFunc,1500,'funcy');
+window.sayHello();
+*/
 
-clearTimeout();
+const log = require('./logger');
 
-//setInterval();
-//clearInterval();
-
-var message = '';
-console.log(global.message);
+log('hello');
