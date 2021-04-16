@@ -1,10 +1,8 @@
-/*
-var sayHello = function(){
+const path = require('path');
 
-}
-window.sayHello();
-*/
+console.log(path); 
 
-const log = require('./logger');
+var pathObj = path.parse(__filename);
 
-log('hello');
+console.log(pathObj);
+
